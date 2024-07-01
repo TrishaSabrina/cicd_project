@@ -17,6 +17,7 @@ export const mainConfig = {
 
     // baseUrl:'https://the-internet.herokuapp.com/',
 
-    baseUrl: 'https://the-internet.herokuapp.com/login',
+    baseUrl: process.env.url || 'https://the-internet.herokuapp.com/login',
 
+    environment: process.env.ENVIRONMENT || 'default',
 }
