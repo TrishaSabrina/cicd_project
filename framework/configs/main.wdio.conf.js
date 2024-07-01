@@ -15,20 +15,8 @@ export const mainConfig = {
     connectionRetryCount: 3,
     reporters: ['spec'],
 
-    baseUrl:'https://the-internet.herokuapp.com/',
+    // baseUrl:'https://the-internet.herokuapp.com/',
 
-    // onPrepare: function() {
-    //     fs.ensureDir(downloadDir);
-    // },
-
-    // after: function (result, capabilities, specs) {
-    //     fs.emptyDir(downloadDir);
-    // },
-
-    // afterTest: async function (test, context, { error, result, duration, passed, retries }) {
-    //     if (!passed) {
-    //         await browser.takeScreenshot();
-    //     }
-    // },
+    baseUrl: 'https://the-internet.herokuapp.com/login',
 
 }
